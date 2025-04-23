@@ -2,12 +2,13 @@
 
 class Pages extends Controllers{
     public function __construct(){
-       
+        
     }
 
     public function index(){
+
         $data = [
-            'title' => 'Welcome! to Home.'
+            'title' => 'LiteMVC'
         ];
 
         $this->view('pages/index', $data);
@@ -15,7 +16,7 @@ class Pages extends Controllers{
 
     public function about(){
         $data = [
-            'title' => 'Welcome! to About.'
+            'title' => 'LiteMVC'
         ];
 
         $this->view('pages/about', $data);
